@@ -1,7 +1,7 @@
 let simbolo = prompt('Você é o jogador um. Digite X ou O para começar.');
 // let jogadorDois = prompt('Você é o jogador dois. Escolha X ou O para começar.');
 
-const quadUm = document.querySelector ('.quad-um');
+// const quadUm = document.querySelector ('.quad-um');
 // const quadDois = document.querySelector ('.quad-dois');
 // const quadTres = document.querySelector ('.quad-tres');
 // const quadQuatro = document.querySelector ('.quad-quatro');
@@ -15,7 +15,7 @@ const quadUm = document.querySelector ('.quad-um');
 let jogadorUm = "X" ;
 let jogadorDois = "O";
 
-}
+
 // let quadDois;
 // let quadTres;
 // let quadQuatro;
@@ -62,11 +62,11 @@ let jogadorDois = "O";
 
 //     }
 
-    else{
-        alert('Deu velha. O jogo acabou.');
-    }
+    // else{
+    //     alert('Deu velha. O jogo acabou.');
+    // }
     
 // }
 
-quadUm.onclick = jogadorUm;
+// quadUm.onclick = jogadorUm;
 // quadUm.onclick = escolhaDois;
