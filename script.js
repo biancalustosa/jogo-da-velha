@@ -11,11 +11,10 @@ let simbolo = prompt('Você é o jogador um. Digite X ou O para começar.');
 // const quadOito = document.querySelector ('.quad-oito');
 // const quadNove = document.querySelector ('.quad-nove');
 
-
 let jogadorUm = "X" ;
 let jogadorDois = "O";
 
-
+// let quadUm;
 // let quadDois;
 // let quadTres;
 // let quadQuatro;
@@ -68,5 +67,5 @@ let jogadorDois = "O";
     
 // }
 
-// quadUm.onclick = jogadorUm;
+quadUm.onclick = atualizarQuadUm;
 // quadUm.onclick = escolhaDois;

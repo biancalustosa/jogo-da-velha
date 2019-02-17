@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.grid{
+/* .grid{
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
@@ -12,7 +12,7 @@ body{
     "header header header"
     "main main main"
     "footer footer footer";
-}
+} */
 
 header{
     align-items: center;
