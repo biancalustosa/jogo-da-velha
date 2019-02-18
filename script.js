@@ -14,7 +14,7 @@ let simbolo = prompt('Você é o jogador um. Digite X ou O para começar.');
 let jogadorUm = "X" ;
 let jogadorDois = "O";
 
-// let quadUm;
+let quadUm;
 // let quadDois;
 // let quadTres;
 // let quadQuatro;
@@ -31,8 +31,8 @@ let jogadorDois = "O";
 // let jogadorUm;
 // let jogadorDois;
 
-// while( simbolo == jogadorUm && simbolo == jogadorDois){
-//     // console.log(jogadorUm, jogadorDois);
+while( simbolo == jogadorUm && simbolo == jogadorDois){
+    // console.log(jogadorUm, jogadorDois);
 
     if(simbolo == jogadorUm){
         alert('Você é o X.');
@@ -42,30 +42,30 @@ let jogadorDois = "O";
         alert('Você é a O.');
     }
 
-//     if(quadUm, quadDois, quadTres == jogadorUm || quadUm, quadDois, quadTres == jogadorDois || quadQuatro, quadCinco, quadSeis == jogadorUm || quadQuatro, quadCinco, quadSeis == jogadorDois|| quadSete, quadOito, quadNove == jogadorUm || quadSete, quadOito, quadNove == jogadorDois*/){
+    if(quadUm == jogadorUm && quadDois == jogadorUm && quadTres == jogadorUm || quadUm == jogadorDois && quadDois == jogadorDois && quadTres == jogadorDois || quadQuatro == jogadorUm && quadCinco == jogadorUm && quadSeis == jogadorUm || quadQuatro == jogadorDois && quadCinco == jogadorDois && quadSeis == jogadorDois || quadSete == jogadorUm && quadOito == jogadorUm && quadNove == jogadorUm || quadSete == jogadorDois && quadOito == jogadorDois && quadNove == jogadorDois ){
 
-//         alert('Parabéns. Você ganhou o jogo.');
+        alert('Parabéns. Você ganhou o jogo.');
 
-//             if(quadUm, quadQuatro, quadNove == escolha || quadUm, quadQuatro, quadNove == escolhaDois || quadTres, quadCinco, quadSete == escolha || quadTres, quadCinco, quadSete == escolhaDois){
+            if(quadUm == jogadorUm && quadCinco == jogadorUm && quadNove == jogadorUm || quadUm == jogadorDois && quadCinco == jogadorDois && quadNove == jogadorDois || quadTres == jogadorUm && quadCinco == jogadorUm && quadSete == jogadorUm || quadTres == jogadorDois && quadCinco == jogadorDois && quadSete == jogadorDois ){
 
-//              alert('Parabéns. Você ganhou o jogo.');
+             alert('Parabéns. Você ganhou o jogo.');
 
-//              if(quadUm, quadQuatro, quadSete == escolha|| quadUm, quadQuatro, quadSete == escolhaDois || quadDois, quadCinco, quadOito == escolha || quadDois, quadCinco, quadOito == escolhaDois || quadTres, quadSeis, quadNove == escolha || quadTres, quadSeis, quadNove == escolhaDois){
-//                     alert('Parabéns. Você ganhou o jogo.');
-//                 }
-//                 else{
-//                     alert('Vocêr perdeu.');
-//                 }
+             if(quadUm == jogadorUm && quadQuatro == jogadorUm && quadSete == jogadorUm || quadUm == jogadorDois && quadQuatro == jogadorDois && quadSete == jogadorDois || quadDois == jogadorUm && quadCinco == jogadorUm && quadOito == jogadorUm || quadDois == jogadorDois && quadCinco == jogadorDois && quadOito == jogadorDois || quadTres == jogadorUm && quadSeis == jogadorUm && quadNove == jogadorUm || quadTres == jogadorDois && quadSeis == jogadorDois && quadNove == jogadorDois) {
+                    alert('Parabéns. Você ganhou o jogo.');
+                }
+                else{
+                    alert('Vocêr perdeu.');
+                }
 
-//             }
+            }
 
-//     }
+    }
 
-    // else{
-    //     alert('Deu velha. O jogo acabou.');
-    // }
+    else{
+        alert('Deu velha. O jogo acabou.');
+    }
     
-// }
+}
 
-quadUm.onclick = atualizarQuadUm;
-// quadUm.onclick = escolhaDois;
+quadUm.onclick = jogadorUm;
+// quadUm.onclick = jogadorDois;
